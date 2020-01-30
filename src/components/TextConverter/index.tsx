@@ -63,8 +63,8 @@ const TextConverter: React.FC = () => {
             case '?':
                 return ':question:';
             default:
-              return char;
-          }
+                return char;
+        }
     };
 
     return (
